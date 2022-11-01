@@ -24,7 +24,9 @@ to the database server
 
 1. Download the appropriate PostgreSQL version 15.0 installer from [https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 2. Step through the installation instructions, using the recommended default
-   configuration. The port should be 5432 (make note if you choose a different port):
+   configuration.   
+   The port should be 5432, and all recommended components should be installed  
+   ![select postgresql components](https://curriculum-content.s3.amazonaws.com/6002/setting-up-postgres/selectcomponents.png)  
    - [Install PostgreSQL for Windows](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)
    - [Install PostgreSQL for macOS](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-macos//)
      - You do not need to follow the instructions to "Load the sample database".
@@ -35,7 +37,7 @@ to the database server
 
 ### Windows Instructions:
 
-1. Launch the **psql** tool.  
+1. Launch the **psql** tool.   
    ![windows psql tool](https://curriculum-content.s3.amazonaws.com/6002/setting-up-postgres/psql.png)
 2. Hit enter to accept default values for server, database, port, and username.
 3. Enter the password for the **postgres** user.
